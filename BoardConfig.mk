@@ -28,12 +28,11 @@ TARGET_OTA_ASSERT_DEVICE := klimtwifi
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_deathly_klimtwifi_defconfig
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
-
-# Cyanogen Hardware
-BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/cmhw
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608

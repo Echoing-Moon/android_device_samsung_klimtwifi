@@ -1,1 +1,1 @@
-add_lunch_combo lineage_klimtwifi-userdebug
+add_lunch_combo aosp_klimtwifi-userdebug
